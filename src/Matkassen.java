@@ -5,6 +5,7 @@ public class Matkassen{
         Day three = new Day(11,3);
         Day four = new Day(11,4);
 
+<<<<<<< HEAD
         System.out.println("The name of the dishes for this week are: ");
         System.out.println(one.getTitle());
         System.out.println(two.getTitle());
@@ -17,5 +18,10 @@ public class Matkassen{
         three.printIngredients();
         four.printIngredients();
         
+=======
+
+
+
+>>>>>>> test_branch
     }
 }
