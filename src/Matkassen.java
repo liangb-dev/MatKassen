@@ -16,8 +16,6 @@ public class Matkassen{
         two.printIngredients();
         three.printIngredients();
         four.printIngredients();
-
-
-
+        
     }
 }
