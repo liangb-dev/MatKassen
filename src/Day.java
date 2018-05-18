@@ -67,7 +67,7 @@ public class Day {
 
 
     /**
-     * Method for running/testing other private methods
+     * Running/testing other private methods
      */
     public void testMethod() {
         this.printIngredients();
@@ -75,7 +75,7 @@ public class Day {
 
 
     /**
-     * Method for parsing certain sections
+     * Parsing certain sections by keyword until next '\n'
      */
     private ArrayList<String> parseByKeyWord(String keyword, ArrayList<String> dst, String[] source) {
         int i = 0;
