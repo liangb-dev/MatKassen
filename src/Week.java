@@ -29,4 +29,12 @@ public class Week {
         }
     }
 
+    /**
+     * Print all the Ingredients for this week
+     */
+    public void printAllIngredients(){
+        for (Day object: Days)
+            object.printIngredients();
+    }
+
 }
