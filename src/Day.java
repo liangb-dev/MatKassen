@@ -28,11 +28,13 @@ public class Day {
         String rawcontent = readFile(); // read target file content
         String[] parsedcontent = rawcontent.split("\n"); // parse into array
 
+        System.out.println(parsedcontent[0]);
 
         // Dish name
         this.TITLE = parsedcontent[0];
         // Dish prep time
         this.TIME = parsedcontent[1];
+
 
         // Initialize ingredient elements
         for (int i = 3; parsedcontent[i].length()!= 0;i++){
@@ -103,7 +105,7 @@ public class Day {
 
         // The name of the file to open.
         String fileName
-                = "D:\\IntelliJ\\Projects\\Matkassen\\Weeks\\Vecka" + Integer.toString(WEEK) +
+                = "Weeks\\Vecka" + Integer.toString(WEEK) +
                 "\\DAG" + Integer.toString(ID) + ".txt";
 
         // This will reference one line at a time
@@ -113,7 +115,7 @@ public class Day {
         try {
             // InputStreamReader reads text
             InputStreamReader reader = new InputStreamReader(
-                    new FileInputStream(fileName), "UTF-8");
+                    new FileInputStream(fileName), "UTF8");
 
             // Always wrap FileReader in BufferedReader.
             BufferedReader bufferedReader =
@@ -137,6 +139,7 @@ public class Day {
                             + fileName + "'");
         }
 
+
         return filecontent;
     }
 
@@ -146,14 +149,6 @@ public class Day {
      */
     public void printIngredients() {
 
-        // OPTION 1: "Advanced" for-loop iteration
-        /*
-        for (String ingredient : INGREDIENTS) {
-            System.out.println(ingredient);
-        }
-        */
-
-        // OPTION 2: iterator loop iteration
         Iterator<String> ingredientIterator = INGREDIENTS.iterator();
         while(ingredientIterator.hasNext()) {
             System.out.println(ingredientIterator.next());

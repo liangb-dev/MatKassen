@@ -2,7 +2,7 @@ import java.sql.SQLOutput;
 
 public class Week {
     private int NUMBER;
-    private Day[] Days = new Day[4];
+    private Day[] Days = new Day[4]; // Hold number of days
 
 
     Week(int NUMBER){
@@ -33,8 +33,10 @@ public class Week {
      * Print all the Ingredients for this week
      */
     public void printAllIngredients(){
-        for (Day object: Days)
+        for (Day object: Days) {
             object.printIngredients();
+        }
+
     }
 
 }
