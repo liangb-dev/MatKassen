@@ -1,3 +1,5 @@
+import javafx.css.ParsedValue;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,6 +12,7 @@ public class Day {
     private String TITLE;
     private String TIME;
     private ArrayList<String> INGREDIENTS = new ArrayList<String>();
+    private ArrayList<ArrayList<String>> PARSED_INGREDIENTS = new ArrayList<>();
     private ArrayList<String> STEPS = new ArrayList<String>();
 
     private ArrayList<String> FUNFACT = new ArrayList<String>();
@@ -37,9 +40,9 @@ public class Day {
 
 
         // Initialize ingredient elements
-        for (int i = 3; parsedcontent[i].length()!= 0;i++){
-            INGREDIENTS.add(parsedcontent[i]);
-        }
+        parseByKeyWord("Ingredienser:", INGREDIENTS, parsedcontent);
+
+        parseIngredients();
 
         // Initialize steps
         for (int i = parsedcontent.length -1; !parsedcontent[i].startsWith("Steps");i--){
@@ -48,13 +51,62 @@ public class Day {
         Collections.reverse(STEPS);
 
         // Initialize funfacts
-        FUNFACT = parseByKeyWord("Fakta", FUNFACT, parsedcontent);
-
+        parseByKeyWord("Fakta", FUNFACT, parsedcontent);
         // Initialize TMR
-        TMR = parseByKeyWord("Till imorgon", TMR, parsedcontent);
+        parseByKeyWord("Till imorgon", TMR, parsedcontent);
 
 
     }
+
+    public void parseIngredients() {
+        int it = 0; // iterator
+        // Get every line of ingredients
+        for (String line : INGREDIENTS) {
+            PARSED_INGREDIENTS.add(it, new ArrayList<String>()); // Create container
+            String[] ing_desc = line.split("\\("); //ingredient/description split
+            // Add QT/Units/Produce to PARSE_INGREDIENTS
+            String[] ing = ing_desc[0].split(" ");
+            if (Character.isLetter(ing[0].charAt(0))) {
+                System.out.println(ing_desc[0]);
+                PARSED_INGREDIENTS.get(it).add(ing_desc[0]); // "Resten av de kokta svarta bönorna"
+            }
+            else {
+                PARSED_INGREDIENTS.get(it).add(0, ing[0]); // Quantity
+
+                int it2 = 1;
+                if (ing.length > 2) { // Not all lines have "Unit"
+                    PARSED_INGREDIENTS.get(it).add(1, ing[1]); // Unit
+                    it2 = 2;
+                } else {
+                    PARSED_INGREDIENTS.get(it).add(1, ""); // empty cell
+                }
+                // Rest is Produce
+                String produce = "";
+                for (int i = it2; i < ing.length; i++) {
+                    produce += ing[i]; // Append the rest
+                    if (i != ing.length-1) { // Add space " "
+                        produce += " ";
+                    }
+                }
+                PARSED_INGREDIENTS.get(it).add(2, produce); // Produce
+            }
+
+            // IF there is description, add it too
+            if (ing_desc.length > 1) {
+                PARSED_INGREDIENTS.get(it).add("("+ing_desc[1]);
+            }
+
+            it++; // increment iterator
+        }
+
+        for (ArrayList<String> arr : PARSED_INGREDIENTS) {
+            if (arr.size() > 2) {
+                System.out.println(arr.get(2));
+            }
+        }
+
+    }
+
 
     /**
      * Getter methods
@@ -94,6 +146,7 @@ public class Day {
         catch (ArrayIndexOutOfBoundsException ex) {
             dst.clear();
         }
+
         return dst;
     }
 

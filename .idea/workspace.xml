@@ -7,12 +7,8 @@
       <change beforePath="$PROJECT_DIR$/Weeks/Vecka11/DAG2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Weeks/Vecka11/DAG2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Weeks/Vecka11/DAG3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Weeks/Vecka11/DAG3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Weeks/Vecka11/DAG4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Weeks/Vecka11/DAG4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Matkassen/Day.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Matkassen/Day.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Matkassen/Matkassen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Matkassen/Matkassen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Matkassen/Week.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Matkassen/Week.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Day.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Matkassen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matkassen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,29 +23,31 @@
       <file leaf-file-name="Week.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Week.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="379">
+              <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Day.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Day.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="141" selection-start-line="141" selection-end-line="141" />
+            <state relative-caret-position="347">
+              <caret line="71" column="13" lean-forward="true" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3926#3927#0" expanded="true" />
+                <element signature="e#3965#3966#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Matkassen.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Matkassen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Matkassen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="68">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -70,9 +68,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Vegetable.java" />
-        <option value="$PROJECT_DIR$/src/Day.java" />
         <option value="$PROJECT_DIR$/src/Week.java" />
         <option value="$PROJECT_DIR$/src/Matkassen.java" />
+        <option value="$PROJECT_DIR$/src/Day.java" />
       </list>
     </option>
   </component>
@@ -229,6 +227,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -240,7 +239,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -253,6 +251,8 @@
           <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3926#3927#0" expanded="true" />
+            <element signature="e#3965#3966#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -277,6 +277,8 @@
           <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3926#3927#0" expanded="true" />
+            <element signature="e#3965#3966#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -301,6 +303,8 @@
           <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3926#3927#0" expanded="true" />
+            <element signature="e#3965#3966#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -368,6 +372,8 @@
           <caret line="150" column="27" selection-start-line="150" selection-start-column="27" selection-end-line="150" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3926#3927#0" expanded="true" />
+            <element signature="e#3965#3966#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -392,6 +398,8 @@
           <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3926#3927#0" expanded="true" />
+            <element signature="e#3965#3966#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -416,6 +424,8 @@
           <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3926#3927#0" expanded="true" />
+            <element signature="e#3965#3966#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -483,6 +493,8 @@
           <caret line="150" column="27" selection-start-line="150" selection-start-column="27" selection-end-line="150" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3926#3927#0" expanded="true" />
+            <element signature="e#3965#3966#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -507,6 +519,8 @@
           <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3926#3927#0" expanded="true" />
+            <element signature="e#3965#3966#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -531,6 +545,8 @@
           <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3926#3927#0" expanded="true" />
+            <element signature="e#3965#3966#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -594,25 +610,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Week.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Day.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="141" selection-start-line="141" selection-end-line="141" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="379">
+          <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Matkassen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Day.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="71" column="13" lean-forward="true" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3926#3927#0" expanded="true" />
+            <element signature="e#3965#3966#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
