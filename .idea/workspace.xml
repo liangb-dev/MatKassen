@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4d269f4-8a74-4da8-b4a1-cf6c8c58aa52" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Weeks/Vecka11/DAG1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Weeks/Vecka11/DAG1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weeks/Vecka11/DAG2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Weeks/Vecka11/DAG2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weeks/Vecka11/DAG3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Weeks/Vecka11/DAG3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weeks/Vecka11/DAG4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Weeks/Vecka11/DAG4.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Day.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Matkassen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matkassen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,25 +17,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Week.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Week.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Week.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+            <state relative-caret-position="440">
+              <caret line="167" column="9" lean-forward="true" selection-start-line="167" selection-start-column="9" selection-end-line="167" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Day.java">
+      <file leaf-file-name="DAG1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Weeks/Vecka11/DAG1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="71" column="13" lean-forward="true" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3926#3927#0" expanded="true" />
-                <element signature="e#3965#3966#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -52,6 +49,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Day.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Day.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4260#4261#0" expanded="true" />
+                <element signature="e#4299#4300#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -61,6 +72,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>println</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -68,9 +84,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Vegetable.java" />
-        <option value="$PROJECT_DIR$/src/Week.java" />
         <option value="$PROJECT_DIR$/src/Matkassen.java" />
         <option value="$PROJECT_DIR$/src/Day.java" />
+        <option value="$PROJECT_DIR$/src/Week.java" />
       </list>
     </option>
   </component>
@@ -247,38 +263,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Day.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3926#3927#0" expanded="true" />
-            <element signature="e#3965#3966#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Matkassen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Day.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3926#3927#0" expanded="true" />
-            <element signature="e#3965#3966#0" expanded="true" />
+            <element signature="e#4260#4261#0" expanded="true" />
+            <element signature="e#4299#4300#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -303,8 +293,8 @@
           <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3926#3927#0" expanded="true" />
-            <element signature="e#3965#3966#0" expanded="true" />
+            <element signature="e#4260#4261#0" expanded="true" />
+            <element signature="e#4299#4300#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -372,8 +362,8 @@
           <caret line="150" column="27" selection-start-line="150" selection-start-column="27" selection-end-line="150" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3926#3927#0" expanded="true" />
-            <element signature="e#3965#3966#0" expanded="true" />
+            <element signature="e#4260#4261#0" expanded="true" />
+            <element signature="e#4299#4300#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -398,8 +388,8 @@
           <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3926#3927#0" expanded="true" />
-            <element signature="e#3965#3966#0" expanded="true" />
+            <element signature="e#4260#4261#0" expanded="true" />
+            <element signature="e#4299#4300#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -424,8 +414,8 @@
           <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3926#3927#0" expanded="true" />
-            <element signature="e#3965#3966#0" expanded="true" />
+            <element signature="e#4260#4261#0" expanded="true" />
+            <element signature="e#4299#4300#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -493,8 +483,8 @@
           <caret line="150" column="27" selection-start-line="150" selection-start-column="27" selection-end-line="150" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3926#3927#0" expanded="true" />
-            <element signature="e#3965#3966#0" expanded="true" />
+            <element signature="e#4260#4261#0" expanded="true" />
+            <element signature="e#4299#4300#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -519,8 +509,8 @@
           <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3926#3927#0" expanded="true" />
-            <element signature="e#3965#3966#0" expanded="true" />
+            <element signature="e#4260#4261#0" expanded="true" />
+            <element signature="e#4299#4300#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -545,8 +535,8 @@
           <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3926#3927#0" expanded="true" />
-            <element signature="e#3965#3966#0" expanded="true" />
+            <element signature="e#4260#4261#0" expanded="true" />
+            <element signature="e#4299#4300#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -601,17 +591,31 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Vegetable.java" />
+    <entry file="file://$PROJECT_DIR$/Weeks/Vecka11/DAG4.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weeks/Vecka11/DAG3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weeks/Vecka11/DAG2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Weeks/Vecka11/DAG1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week.java">
+    <entry file="file://$PROJECT_DIR$/src/Day.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        <state relative-caret-position="202">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4260#4261#0" expanded="true" />
+            <element signature="e#4299#4300#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -622,14 +626,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Day.java">
+    <entry file="file://$PROJECT_DIR$/src/Week.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="71" column="13" lean-forward="true" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+        <state relative-caret-position="440">
+          <caret line="167" column="9" lean-forward="true" selection-start-line="167" selection-start-column="9" selection-end-line="167" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3926#3927#0" expanded="true" />
-            <element signature="e#3965#3966#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
           </folding>
         </state>
       </provider>

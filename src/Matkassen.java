@@ -4,6 +4,12 @@ public class Matkassen{
 
         eleven.printAllIngredients();
 
+        System.out.println(" ");
+
+        //eleven.getDay(1).printProduce();
+
+
+
 
 
     }

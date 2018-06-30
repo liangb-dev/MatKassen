@@ -41,7 +41,6 @@ public class Day {
 
         // Initialize ingredient elements
         parseByKeyWord("Ingredienser:", INGREDIENTS, parsedcontent);
-
         parseIngredients();
 
         // Initialize steps
@@ -58,6 +57,22 @@ public class Day {
 
     }
 
+    public ArrayList<ArrayList<String>> getIngredients() {
+        return PARSED_INGREDIENTS;
+    }
+
+    public void printProduce() {
+        for (ArrayList<String> arr : PARSED_INGREDIENTS) {
+
+        }
+    }
+
+
+
+    /**
+     * Parses ingredients according to quantity, units (empty if there is none), produce,
+     * and description (if there is one).
+     */
     public void parseIngredients() {
         int it = 0; // iterator
         // Get every line of ingredients
@@ -67,7 +82,7 @@ public class Day {
             // Add QT/Units/Produce to PARSE_INGREDIENTS
             String[] ing = ing_desc[0].split(" ");
             if (Character.isLetter(ing[0].charAt(0))) {
-                System.out.println(ing_desc[0]);
+                //System.out.println(ing_desc[0]);
                 PARSED_INGREDIENTS.get(it).add(ing_desc[0]); // "Resten av de kokta svarta bönorna"
             }
             else {
@@ -99,11 +114,7 @@ public class Day {
             it++; // increment iterator
         }
 
-        for (ArrayList<String> arr : PARSED_INGREDIENTS) {
-            if (arr.size() > 2) {
-                System.out.println(arr.get(2));
-            }
-        }
+
 
     }
 
